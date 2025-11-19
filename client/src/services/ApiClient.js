@@ -52,8 +52,6 @@ class ApiClient {
   }
 }
 
-const BASE_URL = import.meta.env.PROD
-  ? "https://anonnotes.onrender.com/api"     // change site URL
-  : "http://localhost:4000/api";
+const BASE_URL = import.meta.env.VITE_API_URL;
 
 export default new ApiClient(BASE_URL);
