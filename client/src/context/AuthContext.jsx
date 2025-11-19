@@ -86,6 +86,7 @@ export function AuthProvider({ children }) {
       value={{
         user,
         isLoggedIn: !!user,
+        role: user?.role,
         loading,
         login,
         signup,
