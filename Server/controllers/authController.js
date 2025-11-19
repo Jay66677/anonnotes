@@ -98,7 +98,6 @@ export async function login(req, res, next) {
       httpOnly: true,
       secure: true,
       sameSite: "None", 
-      domain: "onrender.com",
       path: "/"
     });
 
@@ -123,8 +122,7 @@ export async function logout(req, res) {
   res.clearCookie(COOKIE_NAME, {
     httpOnly: true,
     secure: true,
-      sameSite: "None", 
-      domain: "onrender.com",
+    sameSite: "None", 
     path: "/"
   });
 
