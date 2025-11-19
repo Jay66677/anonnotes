@@ -7,3 +7,4 @@
   to = "https://anonnotes.onrender.com/:splat"
   status = 200
   force = true
+  logging = true
