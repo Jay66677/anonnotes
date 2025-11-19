@@ -4,5 +4,6 @@
 
 [[redirects]]
   from = "/api/*"
-  to = "https://anonnotes.onrender.com/api/:splat"
+  to = "https://anonnotes.onrender.com/:splat"
   status = 200
+  force = true
