@@ -52,8 +52,6 @@ class ApiClient {
   }
 }
 
-const BASE_URL = import.meta.env.VITE_API_URL;
+const BASE = import.meta.env.VITE_API_URL || '/api';
 
-console.log(BASE_URL); //debugging url thing
-
-export default new ApiClient(BASE_URL);
+export default new ApiClient(BASE);
