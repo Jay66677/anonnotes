@@ -35,7 +35,7 @@ const app = express();
 // Middlewares
 app.use(cors({
   origin: [
-    "https://691d5a978611ba0cc0638710--grand-moxie-6f3b89.netlify.app/",  // frontend
+    "https://grand-moxie-6f3b89.netlify.app/",  // frontend
     "http://localhost:5173"           // for local dev
   ],
   credentials: true,
