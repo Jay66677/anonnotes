@@ -53,7 +53,7 @@ class ApiClient {
 }
 
 const BASE_URL = import.meta.env.PROD
-  ? "https://your-backend.onrender.com/api"     // change site URL
+  ? "https://anonnotes.onrender.com/api"     // change site URL
   : "http://localhost:4000/api";
 
 export default new ApiClient(BASE_URL);
