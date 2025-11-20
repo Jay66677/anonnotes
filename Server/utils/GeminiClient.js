@@ -26,7 +26,7 @@ class GeminiClient {
     const prompt = `
 Rewrite this message in a "${style}" style.
 Keep it safe and meaningful.
-Do NOT add emojis.
+Do NOT add emojis.And directly give best option no filler text,just the converted message nothing else
 ---
 ${text}
     `;
